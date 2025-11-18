@@ -156,8 +156,8 @@ Possible future API endpoints:
 
 ## 🚀 Sprint Plan
 
-| Sprint | Goal | Status |
-|---------|------|--------|
+| Sprint | Goal |
+|---------|------|
 | Brainstorming, app idea, wireframes | ✅ Done |
 | Implement Tasks, Calendar, Pomodoro UI | ✅ Done |
 | Add Focus Music player & polish UI | ✅ Done |
