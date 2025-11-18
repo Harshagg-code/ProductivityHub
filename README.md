@@ -45,7 +45,7 @@ The goal is to help students and professionals manage their time, reduce distrac
 - [x] User can **swipe a task** to start a Pomodoro for that specific task.  
 - [x] User can access the **Focus Music tab** to play ambient sounds (Rain 🌧, Forest 🌲, Café ☕, Lo-Fi 🎧).
 
-#### 💡 Optional Nice-to-have Stories
+#### 💡 Optional things to implement later
 - [ ] Auto-cycle Pomodoro sessions (Work → Short Break → Long Break).  
 - [ ] Habit tracker dashboard with streak visualization.  
 - [ ] Daily/Weekly productivity statistics.  
