@@ -1,8 +1,5 @@
 //
 //  SceneDelegate.swift
-//  ProductivityHub
-//
-//  Created by Harshit Aggarwal on 11/18/25.
 //
 
 import UIKit
