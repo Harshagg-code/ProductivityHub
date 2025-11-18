@@ -144,7 +144,13 @@ Possible future API endpoints:
 ## 📹 Demo Video
 
 🎥 **Loom or YouTube Link:**  
-_Add your screen recording link here (1–2 min walkthrough of app features)._
+<div>
+    <a href="https://www.loom.com/share/a10f7fb35d1740be984838c3b05511c0">
+    </a>
+    <a href="https://www.loom.com/share/a10f7fb35d1740be984838c3b05511c0">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/a10f7fb35d1740be984838c3b05511c0-87e761a05ed3897a-full-play.gif#t=0.1">
+    </a>
+  </div>
 
 ---
 
@@ -152,10 +158,10 @@ _Add your screen recording link here (1–2 min walkthrough of app features)._
 
 | Sprint | Goal | Status |
 |---------|------|--------|
-| Week 8 | Brainstorming, app idea, wireframes | ✅ Done |
-| Week 9 | Implement Tasks, Calendar, Pomodoro UI | ✅ Done |
-| Week 10 | Add Focus Music player & polish UI | ✅ Done |
-| Week 11 | Testing, README update, video submission | 🚧 In Progress |
+| Brainstorming, app idea, wireframes | ✅ Done |
+| Implement Tasks, Calendar, Pomodoro UI | ✅ Done |
+| Add Focus Music player & polish UI | ✅ Done |
+| Testing, README update, video submission |✅ Done |
 
 ---
 
