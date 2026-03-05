@@ -26,7 +26,7 @@ class PomodoroViewController: UIViewController {
     private let timeLabel = UILabel()
     private let startPauseButton = UIButton(type: .system)
     private let resetButton = UIButton(type: .system)
-    private let durationControl = UISegmentedControl(items: ["2", "30", "35"])
+    private let durationControl = UISegmentedControl(items: ["25", "30", "35"])
     private let progressLayer = CAShapeLayer()
     private let backgroundCircle = CAShapeLayer()
 
@@ -231,7 +231,7 @@ class PomodoroViewController: UIViewController {
     }
 
     @objc private func durationChanged() {
-        let selectedMinutes = [2, 30, 35][durationControl.selectedSegmentIndex]
+        let selectedMinutes = [25, 30, 35][durationControl.selectedSegmentIndex]
         totalSeconds = selectedMinutes * 60
         remainingSeconds = totalSeconds
         updateTimeLabel()

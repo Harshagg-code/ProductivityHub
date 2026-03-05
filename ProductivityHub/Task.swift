@@ -23,6 +23,17 @@ struct Task: Codable, Equatable{
         self.note = note
         self.dueDate = dueDate
     }
+    
+    // Priority Levels for a task
+    
+    enum Priority: String, Codable {
+        case high = "High"
+        case medium = "Medium"
+        case low = "Low"
+    }
+    
+    
+    var priority: Priority = .medium
 
     // A boolean to determine if the task has been completed. Defaults to `false`
     var isComplete: Bool = false {

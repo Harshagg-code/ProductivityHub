@@ -11,6 +11,8 @@ class TaskComposeViewController: UIViewController {
 
     // A UI element that allows users to pick a date.
     @IBOutlet weak var datePicker: UIDatePicker!
+    
+    @IBOutlet weak var priorityControl: UISegmentedControl!
 
     // The optional task to edit.
     // If a task is present we're in "Edit Task" mode
