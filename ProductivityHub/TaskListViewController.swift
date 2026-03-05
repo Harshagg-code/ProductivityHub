@@ -119,16 +119,27 @@ class TaskListViewController: UIViewController {
         var tasks = Task.getTasks()
         // 2.
         tasks.sort { lhs, rhs in
-            if lhs.isComplete && rhs.isComplete {
-                // i.
-                return lhs.completedDate! < rhs.completedDate!
-            } else if !lhs.isComplete && !rhs.isComplete {
-                // ii.
-                return lhs.createdDate < rhs.createdDate
-            } else {
-                // iii.
+            // Always push completed tasks to the bottom
+            if lhs.isComplete != rhs.isComplete {
                 return !lhs.isComplete && rhs.isComplete
             }
+            
+            // For completed tasks, sort by completed date
+            if lhs.isComplete && rhs.isComplete {
+                return lhs.completedDate! < rhs.completedDate!
+            }
+            
+            // For incomplete tasks, sort by priority first
+            let priorityOrder: [Task.Priority: Int] = [.high: 0, .medium: 1, .low: 2]
+            let lhsPriority = priorityOrder[lhs.priority] ?? 1
+            let rhsPriority = priorityOrder[rhs.priority] ?? 1
+            
+            if lhsPriority != rhsPriority {
+                return lhsPriority < rhsPriority
+            }
+            
+            // If same priority, sort by due date
+            return lhs.dueDate < rhs.dueDate
         }
         // 3.
         self.tasks = tasks

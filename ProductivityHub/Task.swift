@@ -18,12 +18,13 @@ struct Task: Codable, Equatable{
 
     // Initialize a new task
     // `note` and `dueDate` properties have default values provided if none are passed into the init by the caller.
-    init(title: String, note: String? = nil, dueDate: Date = Date()) {
+    init(title: String, note: String? = nil, dueDate: Date = Date(), priority: Priority = .medium) {
         self.title = title
         self.note = note
         self.dueDate = dueDate
+        self.priority = priority
     }
-    
+
     // Priority Levels for a task
     
     enum Priority: String, Codable {

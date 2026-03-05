@@ -221,6 +221,8 @@ class PomodoroViewController: UIViewController {
         guard remainingSeconds > 0 else {
             timer?.invalidate()
             isRunning = false
+            let feedback = UINotificationFeedbackGenerator()
+            feedback.notificationOccurred(.success)
             showBreakAlert()
             return
         }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B73F0CBE2F5A26B800001962 /* HabitListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F0CBC2F5A22AB00001962 /* HabitListViewController.swift */; };
+		B73F0CBF2F5A26BF00001962 /* HabitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F0CBA2F5A214A00001962 /* HabitCell.swift */; };
 		B769E5162F59303400193BC6 /* cafe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B769E5042F59303400193BC6 /* cafe.mp3 */; };
 		B769E5182F59303400193BC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B769E5032F59303400193BC6 /* Assets.xcassets */; };
 		B769E5192F59303400193BC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B769E50A2F59303400193BC6 /* LaunchScreen.storyboard */; };
@@ -29,6 +31,8 @@
 
 /* Begin PBXFileReference section */
 		B71E1DFA2ECCEE1400011D05 /* ProductivityHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductivityHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B73F0CBA2F5A214A00001962 /* HabitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCell.swift; sourceTree = "<group>"; };
+		B73F0CBC2F5A22AB00001962 /* HabitListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitListViewController.swift; sourceTree = "<group>"; };
 		B769E4ED2F592BF600193BC6 /* 778c14ed0ecc125a6347b6fcb8b62ee2_GOG_Galaxy__Dark_.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = 778c14ed0ecc125a6347b6fcb8b62ee2_GOG_Galaxy__Dark_.icns; sourceTree = "<group>"; };
 		B769E5022F59303400193BC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B769E5032F59303400193BC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 				B769E5062F59303400193BC6 /* FocusMusicViewController.swift */,
 				B769E5072F59303400193BC6 /* forest.mp3 */,
 				B769E5082F59303400193BC6 /* Habit.swift */,
+				B73F0CBA2F5A214A00001962 /* HabitCell.swift */,
+				B73F0CBC2F5A22AB00001962 /* HabitListViewController.swift */,
 				B769E5092F59303400193BC6 /* Info.plist */,
 				B769E50A2F59303400193BC6 /* LaunchScreen.storyboard */,
 				B769E50B2F59303400193BC6 /* lofi.mp3 */,
@@ -185,8 +191,10 @@
 				B769E5242F59303400193BC6 /* PomodoroViewController.swift in Sources */,
 				B769E5252F59303400193BC6 /* Task.swift in Sources */,
 				B769E5262F59303400193BC6 /* TaskListViewController.swift in Sources */,
+				B73F0CBF2F5A26BF00001962 /* HabitCell.swift in Sources */,
 				B769E5272F59303400193BC6 /* PomodoroManager.swift in Sources */,
 				B769E5282F59303400193BC6 /* TaskCell.swift in Sources */,
+				B73F0CBE2F5A26B800001962 /* HabitListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
